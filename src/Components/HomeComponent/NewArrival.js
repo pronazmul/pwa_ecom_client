@@ -3,7 +3,7 @@ import { Card, Container} from 'react-bootstrap'
 import image from '../../Assets/Images/setwet.jpg'
 
 import Slider from "react-slick"
-import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
