@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Card, Container} from 'react-bootstrap'
 import image from '../../Assets/Images/setwet.jpg'
 
 import Slider from "react-slick"
+import { Button } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const NewArrival = () => {
 
+    const customSlider = useRef();
+
     let settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
+        autoplay:true,
+        autoplaySpeed:2000,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -44,10 +51,13 @@ const NewArrival = () => {
     return (
         <>
             <Container fluid={true} className='py-3'>
-                <h1 className='section-title'>New Arrival</h1>
+                <h1 className='section-title'>New Arrival
+                <Button onClick={()=>customSlider.current.slickPrev()} className='btn btn-danger px-2 ml-3'><FontAwesomeIcon icon={faArrowLeft}/></Button>
+                <Button onClick={()=>customSlider.current.slickNext()} className='btn btn-danger px-2 ml-2'><FontAwesomeIcon icon={faArrowRight}/></Button>
+                </h1>
                 <p className='section-subtitle'>Some Of Our Exclusive Collection, You May Like</p>
 
-                <Slider {...settings}>
+                <Slider ref={slider => (customSlider.current = slider)} {...settings}>
                     <div>
                         <Card className="shadow rounded">
                             <Card.Img className='w-75' src={image} />
