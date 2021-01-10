@@ -5,9 +5,16 @@
       font-size: 20px;
       line-height: 24px;
     }
+    .footer-header{
+      font-size: 18px;
+      line-height: 21px;
+    }
 
     .card-title .card-price .section-subtitle{
         font-size: 14px; 
+    }
+    .footer-text{
+      font-size: 12px; 
     }
           
     }
@@ -20,6 +27,11 @@
       .card-title .card-price .section-subtitle{
         font-size: 16px;
       }
+
+      .footer-text{
+        font-size: 14px; 
+      }
+      
     }
     
     @media (min-width: 1200px) {
@@ -28,7 +40,16 @@
         line-height: 36px;
       }
 
+      .footer-header{
+        font-size: 20px;
+        line-height: 24px;
+      }
+
       .card-title .card-price .section-subtitle{
         font-size: 16px;
+      }
+
+      .footer-text{
+        font-size: 14px; 
       }
     }

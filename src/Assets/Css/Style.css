@@ -44,6 +44,16 @@ color:white;
   text-align: center;
 }
 
+.footer-text{
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.footer-header{
+  font-weight: 600;
+  line-height: 24px;
+}
+
 .grow-up-image{
   overflow: hidden; 
 }
@@ -57,6 +67,11 @@ color:white;
   top:85%;
 }
 
+
+.badge-color{
+  background-color: #E43023;
+  color: white;
+}
 
 /* .switch-wrapper {
     position: relative;
