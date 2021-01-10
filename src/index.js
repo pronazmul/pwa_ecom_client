@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import reportWebVitals from './reportWebVitals'
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./Assets/Css/Style.css"
 import "./Assets/Css/animate.min.css"
+// React Silk Carousel
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
-// import "./Assets/Css/fontawesome.css"
 
 ReactDOM.render(
   <React.StrictMode>

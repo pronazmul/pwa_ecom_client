@@ -3,6 +3,7 @@ import { Jumbotron } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import FeaturedProduct from '../../HomeComponent/FeaturedProduct'
 import MainCategory from '../../HomeComponent/MainCategory'
+import NewArrival from '../../HomeComponent/NewArrival'
 import SpecialCollection from '../../HomeComponent/SpecialCollection'
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
             </Jumbotron>
 
             <FeaturedProduct />
+            <NewArrival/>
             <SpecialCollection/>
             <MainCategory/>
         </>
