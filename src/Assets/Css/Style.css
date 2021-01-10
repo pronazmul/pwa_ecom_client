@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,700&display=swap');
+@import './responsive.css';
+body{
+    font-family: roboto;
+    background-color: #F7F8FA;
+}
+
+
+
+
+
+
+.section-title{
+  font-weight: 700;
+  color: #E43023;
+  text-align: center;
+}
+
+.section-subtitle{
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.card-price{
+  font-weight: 400;
+  color: #E43023;
+  text-align: center;
+}
+
+
+.grow-up-image{
+  overflow: hidden; 
+}
+
+
+.grow-up-image img:hover{
+    transform: scale(1.07) !important;
+    transition: .5s ease-in-out;
+}
+
+
+/* .switch-wrapper {
+    position: relative;
+  }
+  
+  .switch-wrapper > Jumbotron {
+    position: absolute;
+  } */
+
+
+
+
