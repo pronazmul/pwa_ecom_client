@@ -8,7 +8,7 @@ const HomeTop = () => {
         <>
             <Container fluid={true} style={{marginTop:'75px'}}>
                 <Row>
-                    <Col xl={3} lg={3} md={3} sm={12} xs={12} className='p-0 m-0'><MegaMenu/></Col>
+                    <Col xl={3} lg={3} md={3} sm={12} xs={12} className='p-0 m-0 responsive-megamenu'><MegaMenu/></Col>
                     <Col xl={9} lg={9} md={9} sm={12} xs={12} className='p-0 m-0'><MainSlider/></Col>
                 </Row>
             </Container>

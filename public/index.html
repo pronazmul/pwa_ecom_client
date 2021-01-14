@@ -17,6 +17,16 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>PWA E-Commerce</title>
 
+  <!-- Push Notification Script -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "8a29ece3-7a87-4f16-965e-adcafc3a88dd",
+      });
+    });
+  </script>
 </head>
 
 <body>

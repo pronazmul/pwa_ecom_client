@@ -16,7 +16,14 @@
     .footer-text{
       font-size: 12px; 
     }
-          
+    .header-login-button{ display:none !important; }
+    
+    .responsive-megamenu{display: none;}
+    
+    .responsive-footer{text-align: center;}
+
+    .footer-img{display: block; margin: 0px auto;}
+
     }
     @media (min-width: 769px) {
       .section-title{
@@ -33,6 +40,7 @@
       }
       
     }
+    
     
     @media (min-width: 1200px) {
       .section-title{
@@ -52,4 +60,9 @@
       .footer-text{
         font-size: 14px; 
       }
+    }
+
+    @media (min-width: 578px) {
+
+      .navbar-megamenu{display: none;}
     }

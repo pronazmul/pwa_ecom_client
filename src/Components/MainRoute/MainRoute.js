@@ -5,9 +5,15 @@ import {
     Route, Redirect
 } from "react-router-dom"
 import { AnimatedSwitch } from 'react-router-transition'
+import AboutUsPage from '../Pages/AboutUsPage/AboutUsPage'
+import ContractPage from '../Pages/ContractPage/ContractPage'
 
 import HomePage from '../Pages/HomePage/HomePage'
-import LoginPage from '../Pages/LoginPage/LoginPage'
+import PurchasePage from '../Pages/PurchasePage/PurchasePage'
+import ReturnPage from '../Pages/ReturnPage/ReturnPage'
+import PrivacyPage from '../Pages/PrivacyPage/PrivacyPage'
+import UserOnBoardPage from '../Pages/UserOnBoardPage/UserOnBoardPage'
+import ProductDetails from '../Pages/ProductDetails/ProductDetails'
 
 
 const MainRoute = () => {
@@ -25,7 +31,31 @@ const MainRoute = () => {
                 </Route>
 
                 <Route path='/login'>
-                    <LoginPage/>
+                    <UserOnBoardPage/>
+                </Route>
+
+                <Route path='/contract'>
+                    <ContractPage/>
+                </Route>
+
+                <Route path='/about'>
+                    <AboutUsPage/>
+                </Route>
+
+                <Route path='/purchase'>
+                    <PurchasePage/>
+                </Route>
+
+                <Route path='/return'>
+                    <ReturnPage/>
+                </Route>
+
+                <Route path='/privacy'>
+                    <PrivacyPage/>
+                </Route>
+
+                <Route path='/details'>
+                    <ProductDetails/>
                 </Route>
 
                 {/* <ProtectedRoute path='/dashboard/:key?'>

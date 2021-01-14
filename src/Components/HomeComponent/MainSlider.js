@@ -20,13 +20,13 @@ const MainSlider = () => {
     return (
         <Slider {...settings}>
             <div>
-                <img className='w-100 rounded' height='400' src={slide1} alt=''/>
+                <img className='w-100 rounded' height='380' src={slide1} alt=''/>
             </div>
             <div>
-                <img className='w-100 rounded' height='400' src={slide2} alt=''/>
+                <img className='w-100 rounded' height='380' src={slide2} alt=''/>
             </div>
             <div>
-                <img className='w-100 rounded' height='400' src={slide3} alt=''/>
+                <img className='w-100 rounded' height='380' src={slide3} alt=''/>
             </div>
         </Slider>
     );

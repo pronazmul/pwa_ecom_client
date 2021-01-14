@@ -13,7 +13,7 @@ color:white;
 }
 
 .mega-menu-container{
-    height: 400px;
+    height: 380px;
     overflow-y: auto;
     direction:rtl;
     overflow-x: hidden;
@@ -47,6 +47,7 @@ color:white;
 .footer-text{
   font-weight: 400;
   line-height: 18px;
+  
 }
 
 .footer-header{
@@ -73,10 +74,6 @@ color:white;
   color: white;
 }
 
-/* .switch-wrapper {
-    position: relative;
-  }
-  
-  .switch-wrapper > Jumbotron {
-    position: absolute;
-  } */
+.slick-arrow{
+  display: none !important;
+}
